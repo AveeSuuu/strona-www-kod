@@ -1,0 +1,63 @@
+body {
+  background-color: #282b30;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  background-image: url('wszelakiPotwor.png');
+  background-repeat: no-repeat;
+  background-size: 120vh;
+}
+
+.buttonsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50vh;
+  margin-left: 50vh;
+  gap: 3%;
+}
+
+button {
+  background-color: #1e2124;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+  border: 0px;
+  font-size: 28px;
+  margin-top: 10px;
+  width: 240px;
+  height: 60px;
+}
+
+button:hover {
+  background-color: #424549;
+}
+
+button:active {
+  background-color: #7289da;
+}
+
+.wszelakiPotwor {
+  position: absolute;
+}
+
+.panel {
+  width: 600px;
+  height: 120px;
+  background-color: #1e2124;
+  color: white;
+  position: fixed;
+  border: white;
+  top: 0px;
+  right: -720px;
+  font-size: 50px;
+  text-align: left;
+  padding-left: 50px;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
