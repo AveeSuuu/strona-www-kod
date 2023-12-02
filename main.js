@@ -7,6 +7,10 @@ function increaseButtonNumber(buttonId){
 
 function resetCounterAndShowNotification(buttonId){
   resetCounter(buttonId);
+  showNotification();
+}
+
+function showNotification(){
   var panel = document.getElementById("myPanel");
   panel.style.right = "-120px";
   setTimeout(function() {
@@ -19,3 +23,4 @@ function resetCounter(buttonId){
   buttonClicks = 0;
   button.innerText = `Button clicks: ${buttonClicks}`;
 }
+
